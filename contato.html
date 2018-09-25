@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Alguma Coisa</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="assets/css/cabecalho.css" rel="stylesheet">
+    <link href="assets/css/conteudo.css" rel="stylesheet">
+    <link href="assets/css/footer.css" rel="stylesheet">
+    <link href="assets/css/formulario.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-box">
+                <h1><a href="index.html">ALGUMA COISA</a></h1>
+            </div>
+        </nav>
+    </header>
+    <main class="conteudo">
+            <div class="sidebar">
+                <ul>
+                    <li class="sidebar-link"><a href="index.html">INICIO</a></li>
+                    <li class="sidebar-link"><a href="sobre.html">SOBRE</a></li>
+                    <li class="sidebar-link"><a href="contato.html">CONTATO</a></li>
+                </ul>
+            </div> 
+                      
+        <div class="contents">
+        <div><p class="titulo-contato">FALE CONOSCO!</p></div>   
+        <div class="container">                
+                <form class="formulario">
+                        <div>
+                            <label class="texto-formulario" for="nome">Nome completo:</label>
+                            <input class="caixa-texto" type="text" id="nome" placeholder="Seu nome aqui">
+                        </div>
+                        <div>
+                            <label class="texto-formulario" for="email">E-mail:</label>
+                            <input class="caixa-texto" type="email" id="email" placeholder="seuemail@mail.com">
+                        </div>
+                        <div class="container-formulario">
+                            <div>
+                                <label class="texto-formulario">Sexo:</label>
+                                <input type="radio" id="sexo-m" name="sexo">
+                                <label class="radio-texto" for="sexo-m">Masculino</label>
+                                <input type="radio" id="sexo-f" name="sexo">
+                                <label class="radio-texto" for="sexo-f">Feminino</label>
+                            </div>
+                            <div>
+                                <label class="texto-formulario" for="data-nasc">Data de nascimento:</label>
+                                <input class="radio-texto" type="date" id="data-nasc">
+                            </div>                        
+                            <div>
+                                <label class="texto-formulario" for="data-nasc">Estado:</label>
+                                <select class="combobox" id="estado" name="estado">
+                                    <option value="AC">Acre</option>
+                                    <option value="AL">Alagoas</option>
+                                    <option value="AP">Amapá</option>
+                                    <option value="AM">Amazonas</option>
+                                    <option value="BA">Bahia</option>
+                                    <option value="CE">Ceará</option>
+                                    <option value="DF">Distrito Federal</option>
+                                    <option value="ES">Espírito Santo</option>
+                                    <option value="GO">Goiás</option>
+                                    <option value="MA">Maranhão</option>
+                                    <option value="MT">Mato Grosso</option>
+                                    <option value="MS">Mato Grosso do Sul</option>
+                                    <option value="MG">Minas Gerais</option>
+                                    <option value="PA">Pará</option>
+                                    <option value="PB">Paraíba</option>
+                                    <option value="PR">Paraná</option>
+                                    <option value="PE">Pernambuco</option>
+                                    <option value="PI">Piauí</option>
+                                    <option value="RJ">Rio de Janeiro</option>
+                                    <option value="RN">Rio Grande do Norte</option>
+                                    <option value="RS">Rio Grande do Sul</option>
+                                    <option value="RO">Rondônia</option>
+                                    <option value="RR">Roraima</option>
+                                    <option value="SC">Santa Catarina</option>
+                                    <option value="SP">São Paulo</option>
+                                    <option value="SE">Sergipe</option>
+                                    <option value="TO">Tocantins</option>
+                                    <option value="ES">Estrangeiro</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="texto-formulario" for="assunto">Assunto:</label>
+                            <input class="caixa-texto" type="text" id="assunto" placeholder="Assunto da mensagem">
+                        </div>
+                        <div>
+                            <label class="texto-formulario" for="mensagem">Mensagem:</label>
+                            <textarea class="mensagem" id="mensagem" cols="30" rows="10" placeholder="Minha mensagem aqui"></textarea>
+                        </div>
+                        <div>
+                            <input class="check" type="checkbox" id="contrato">
+                            <label for="contrato">Aceito os termos</label>
+                        </div>
+                        <div>
+                            <input class="botao" type="submit" value="Enviar">
+                        </div>
+                    </form>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-box">
+            <div><p>ALGUMA COISA</p></div>
+            <div><p>AVA - JOÃO VICTOR</p></div>
+        </div>
+    </footer>
+</body>
+</html>
